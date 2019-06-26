@@ -20,12 +20,13 @@
         <ion-label>Your thread :</ion-label>
       </ion-list-header>
 
-    <ion-card class="welcome-card">
-      <ion-card-content>
-        <ion-list *ngFor="let data of story">
-            <ion-item> <p> <ion-textarea auto-grow="true" value="{{ this.story }}" readonly maxlength="250"></ion-textarea> </p> </ion-item>
-        </ion-list>
-        
-      </ion-card-content>
-    </ion-card>
+      <ion-card class="welcome-card">
+        <ion-card-content>
+            <p> <ion-textarea auto-grow="true" value="{{ this.story.length }}" readonly></ion-textarea> </p>
+        </ion-card-content>
+      </ion-card>
+      
+
+
+
 </ion-content>
