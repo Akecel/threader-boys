@@ -5,8 +5,6 @@
 
 Ionic application to generate pre-segmented twitter threads 
 
-### 🏠 [Homepage](https://ionicframework.com/)
-
 ## Install
 
 ```sh
