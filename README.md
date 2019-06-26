@@ -19,6 +19,8 @@ npm install
 ionic serve
 ```
 
+🔧 [See Ionic documentation for build](https://ionicframework.com/)
+
 ## Author
 
 👤 **Axel Rayer**
