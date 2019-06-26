@@ -19,7 +19,7 @@ npm install
 ionic serve
 ```
 
-🔧 [See Ionic documentation for build](https://ionicframework.com/)
+🔧 [See Ionic documentation for more](https://ionicframework.com/)
 
 ## Author
 
