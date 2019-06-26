@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Ionic application to generate pre-segmented twitter threads 
+Ionic application to generate pre-segmented twitter threads 
 
 ### 🏠 [Homepage](https://ionicframework.com/)
 
@@ -19,12 +19,6 @@ npm install
 ionic serve
 ```
 
-## Run tests
-
-```sh
-npm run test
-```
-
 ## Author
 
 👤 **Axel Rayer**
@@ -33,6 +27,3 @@ npm run test
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
