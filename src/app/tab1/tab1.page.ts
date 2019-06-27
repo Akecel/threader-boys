@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
-  story: { length: number; }
-  display: any;
+  story:any 
+  display:any;
+
   constructor() {}
 
   thread() {
     this.display = new Array(this.story.length / 250);
   }
-
 }
