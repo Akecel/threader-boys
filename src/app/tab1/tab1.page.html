@@ -20,10 +20,10 @@
         <ion-label>Your thread :</ion-label>
       </ion-list-header>
 
-      <ion-card class="welcome-card">
-        <ion-card-content>
-            <p> <ion-textarea auto-grow="true" value="{{ this.story.length }}" readonly></ion-textarea> </p>
-        </ion-card-content>
+      <ion-card *ngFor="let data of display;let i=index" class="welcome-card">
+          <ion-card-content>
+              <p> <ion-textarea maxlength="250" auto-grow="true" value="{{ this.story[i * 250] }}" readonly> </ion-textarea> </p>
+          </ion-card-content>
       </ion-card>
       
 
