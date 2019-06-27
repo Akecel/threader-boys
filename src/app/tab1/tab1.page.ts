@@ -12,6 +12,6 @@ export class Tab1Page {
   constructor() {}
 
   thread() {
-    this.display = new Array(this.story.length / 250);
+    this.display = new Array(Math.ceil(this.story.length / 270));
   }
 }
