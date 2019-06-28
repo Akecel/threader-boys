@@ -12,7 +12,7 @@
         <ion-card-subtitle>Let's thread</ion-card-subtitle>
       </ion-card-header>
       <ion-card-content>
-          <p> <ion-textarea auto-grow="true" autofocus="true" placeholder="Write your story here" (ionInput)="thread()" [(ngModel)]="story"></ion-textarea> </p>
+          <p> <ion-textarea (keyup)="thread()" auto-grow="true" autofocus="true" placeholder="Write your story here" [(ngModel)]="story"></ion-textarea> </p>
       </ion-card-content>
     </ion-card>
 
@@ -20,9 +20,9 @@
         <ion-label>Your thread :</ion-label>
       </ion-list-header>
 
-      <ion-card *ngFor="let data of display;let i=index" [(ngModel)]="i" class="welcome-card">
+      <ion-card *ngFor="let data of display" class="welcome-card">
         <ion-card-content>
-          <p><ion-textarea maxlength="270" auto-grow="true" value="{{ this.story.slice(i*270,(i+1)*270) }}" readonly> </ion-textarea></p>
+          <p><ion-textarea maxlength="270" auto-grow="true" value="{{ data }}" readonly> </ion-textarea></p>
         </ion-card-content>
       </ion-card>
       
