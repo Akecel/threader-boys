@@ -21,7 +21,7 @@ ionic serve
 
 ## Author
 
-👤 **Axel Rayer**
+👤 **Akecel**
 
 
 ## Show your support
